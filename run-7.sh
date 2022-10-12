@@ -1,0 +1,1 @@
+ dotnet run --project src/BlazorApp7/BlazorApp7.csproj --urls=http://localhost:5000
