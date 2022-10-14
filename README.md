@@ -14,5 +14,5 @@ open http://localhost:5000/MyApp
 ```
 docker-compose build
 docker-compose up
-open http://localhost:5000/MyApp
+open http://localhost:80/MyApp
 ```
