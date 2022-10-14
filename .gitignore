@@ -19,3 +19,5 @@ publish
 
 target
 BenchmarkDotNet.Artifacts
+
+/logs

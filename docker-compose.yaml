@@ -1,0 +1,17 @@
+version: "3.1"
+services:
+  nginx:
+    build:
+      context: "nginx"
+      dockerfile: Dockerfile
+    volumes:
+      - "./logs/nginx/logs:/var/log/nginx"
+    ports:
+      - "80:80"
+
+  app:
+    build:
+      context: "."
+      dockerfile: docker/Dockerfile
+    volumes:
+      - "./logs/app/logs:/app/logs"
